@@ -33,8 +33,7 @@ const Sidebar = () => {
                 <p className="text-2xl">
                   <AiFillHome/>
                 </p>
-                <span className="text-xl hidden
-                xl:block">
+                <span className="text-xl hidden xl:block">
                   For You
                 </span>
               </div>
