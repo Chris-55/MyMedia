@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div>
         <Navbar />
         <div className="flex-gap-6 md:gap-20">
-          <div className="h-[92vh] overflow-hidden x1:hover:overflow-auto">
+          <div className="h-[0vh]  xl:hover:overflow-auto">
             <Sidebar />
           </div>
           <div className="flex h-screen items-center justify-center">
