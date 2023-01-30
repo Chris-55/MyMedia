@@ -1,7 +1,7 @@
 import { client } from '@/utils/client';
 import { allPostsQuery } from '@/utils/queries'
 import type { NextApiRequest, NextApiResponse } from 'next'
-
+import axios from 'axios';
 
 export default async function handler(
   req: NextApiRequest,
