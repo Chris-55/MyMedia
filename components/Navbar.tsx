@@ -9,7 +9,7 @@ import { IoMdAdd } from "react-icons/io";
 import { GoogleLogin, googleLogout } from '@react-oauth/google';
 
 import Logo from '../utils/mymedia.png';
-import { createOrGetUser } from '@/pages/api/post';
+import { createOrGetUser } from '@/utils';
 
 const Navbar = () => {
   const user = false;
